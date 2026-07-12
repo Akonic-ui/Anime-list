@@ -12,7 +12,6 @@ hr{
 }
 
 h1{
-  
     padding: 0 0 0 100px;
 }
 
@@ -21,53 +20,20 @@ a {
     display: inline-block;
 }
 
-.hxh{
-     width: 220px;
-    height: 330px;
-padding: 20px 20px 20px 20px;
-border-radius: 20px;
-transition: transform 0.3s ease-in-out;
-display: inline-block;
-border-radius: 36px;
 
-}
-
-.hxh:hover{
-    transform: scale(1.1)
-    }
-
-.hxh div{
-        
-    height: 2px;
-}
-
-.kk{
+.hxh, .kk, .sote {
     width: 220px;
     height: 330px;
-    padding: 20px 20px 20px 20px;
-border-radius: 20px;
-transition: transform 0.3s ease-in-out;
-display: inline-block;
-border-radius: 36px;
+    padding: 20px;
+    border-radius: 36px;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
 }
 
-.kk:hover{
-     transform: scale(1.1)
+.hxh:hover, .kk:hover, .sote:hover {
+    transform: scale(1.1);
 }
 
-.sote{
-    width: 220px;
-    height: 330px;
-    padding: 20px 20px 20px 20px;
-border-radius: 20px;
-transition: transform 0.3s ease-in-out;
-display: inline-block;
-border-radius: 36px;
-}
-
-.sote:hover{
-     transform: scale(1.1)
-}
 
 footer{
     border-radius: 36px;

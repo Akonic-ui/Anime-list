@@ -41,6 +41,19 @@ border-radius: 36px;
     height: 2px;
 }
 
+.kk{
+    width: 220px;
+    height: 330px;
+    padding: 20px 20px 20px 20px;
+border-radius: 20px;
+transition: transform 0.3s ease-in-out;
+display: inline-block;
+border-radius: 36px;
+}
+
+.kk:hover{
+     transform: scale(1.1)
+}
 
 .sote{
     width: 220px;

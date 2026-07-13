@@ -1,7 +1,20 @@
 body{
-    background-color: #ffff00;
+   background-color: #ffff00; /* Dein Gelb */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px), 
+                      linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+
+.logo{
+    width: 300px;   
+    height: auto;  
+   position: fixed; /* Fixiert am Browser-Fenster, nicht an der Seite */
+    top: 20px;       /* 20 Pixel Abstand von der Oberkante */
+    left: 10px;     /* 20 Pixel Abstand von der rechten Kante */
+    z-index: 1000;   /* Sehr wichtig: Legt das Logo ÜBER alles andere (Text, Bilder) */
+    cursor: pointer; /* Zeigt an, dass es klickbar ist */
 }
 
 hr{
@@ -13,6 +26,7 @@ hr{
 
 h1{
     padding: 0 0 0 100px;
+    color: black;
 }
 
 a {
@@ -28,6 +42,7 @@ a {
     border-radius: 36px;
     transition: transform 0.3s ease-in-out;
     display: inline-block;
+    cursor: pointer;
 }
 
 .hxh:hover, .kk:hover, .sote:hover {

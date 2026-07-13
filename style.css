@@ -35,6 +35,10 @@ a {
     display: inline-block;
 }
 
+/* Entfernt den Focus-Rahmen bei allen Links */
+a:focus {
+    outline: none;
+}
 
 .hxh, .kk, .sote {
     width: 220px;

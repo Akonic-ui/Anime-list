@@ -4,6 +4,7 @@ body{
                       linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
     background-size: 40px 40px;
     font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
     text-align: center;
 }
 
@@ -39,6 +40,7 @@ a {
     width: 220px;
     height: 330px;
     padding: 20px;
+    margin: 0 50px 0 0;
     border-radius: 36px;
     transition: transform 0.3s ease-in-out;
     display: inline-block;
@@ -47,8 +49,4 @@ a {
 
 .hxh:hover, .kk:hover, .sote:hover {
     transform: scale(1.1);
-}
-
-.yt{
-    border-radius:67px;
 }
